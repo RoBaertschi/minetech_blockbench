@@ -1,0 +1,67 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.press.play": {
+			"animation_length": 3,
+			"bones": {
+				"press_top": {
+					"scale": {
+						"vector": [1, 1, 1]
+					}
+				},
+				"arm": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 3, 0],
+							"easing": "easeInExpo"
+						},
+						"1.5": {
+							"vector": [0, 3, 0]
+						},
+						"3.0": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"scale": {
+						"0.0": {
+							"vector": [1, 1, 1]
+						},
+						"1.0": {
+							"vector": [1, 3, 1],
+							"easing": "easeInExpo"
+						},
+						"1.5": {
+							"vector": [1, 3, 1]
+						},
+						"3.0": {
+							"vector": [1, 1, 1]
+						}
+					}
+				},
+				"plate": {
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 6, 0],
+							"easing": "easeInExpo"
+						},
+						"1.5": {
+							"vector": [0, 6, 0]
+						},
+						"3.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			},
+			"sound_effects": {},
+			"particle_effects": {}
+		}
+	},
+	"geckolib_format_version": 2
+}
